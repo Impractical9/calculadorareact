@@ -71,7 +71,7 @@ function App() {
       case '*':
         return firstValue * secondValue;
       case '/':
-        return firstValue / secondValue;
+        return parseFloat((firstValue / secondValue).toFixed(3));
       default:
         return secondValue;
     }
