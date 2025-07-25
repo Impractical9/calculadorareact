@@ -8,7 +8,7 @@
 body {
   background-image: url('IMAGENES/fondo1.jpg');
   background-repeat: no-repeat;
-  background-size: 1366px 768px;
+  background-size: cover;
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
